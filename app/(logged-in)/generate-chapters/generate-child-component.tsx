@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import SubmissionButton from "@/components/loggedin/SubmissionButton";
 
 const GenerateChildComponent = () => {
-    const router = useRouter();
+    const router = useRouter(); 
 
     const handleSubmit = async (formData: FormData) => {
         const result = await generateChapters(formData);
